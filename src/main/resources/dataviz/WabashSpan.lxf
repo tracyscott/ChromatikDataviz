@@ -1,0 +1,640 @@
+{
+  "label": "WabashSpan",
+  "tag": "WabashSpan",
+  "parameters": {
+    "hostname": {
+      "type": "string",
+      "default": "127.0.0.1",
+      "label": "Hostname",
+      "description": "Example string parameter holding a hostname"
+    }
+  },
+  "outputs": [
+    {
+      "protocol": "artsync",
+      "host": "$hostname"
+    }
+  ],
+  "components": [
+    {
+      "type": "strip",
+      "tag": "strip0",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0,
+      "numPoints": 78,
+      "spacing": 1.2303,
+      "outputs": [
+      {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 0,
+          "host": "$hostname",
+          "start": 0,
+          "num": 78,
+          "byteOrder": "rgbw"
+        }
+        ]
+    },
+    {
+      "type": "strip",
+      "tag": "strip4",
+      "x": 97.464,
+      "y": 0.0,
+      "z": 0,
+      "numPoints": 78,
+      "spacing": 1.2303,
+      "outputs": [
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 0,
+          "channel": 312,
+          "host": "$hostname",
+          "start": 0,
+          "num": 50,
+          "byteOrder": "rgbw"
+        },
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 1,
+          "channel": 0,
+          "host": "$hostname",
+          "start": 50,
+          "num": 28,
+          "byteOrder": "rgbw"
+        }
+      ]
+    },
+    {
+      "type": "strip",
+      "tag": "strip8",
+      "x": 194.9268,
+      "y": 0.0,
+      "z": 0,
+      "numPoints": 78,
+      "spacing": 1.2303,
+      "outputs": [
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 1,
+          "channel": 112,
+          "host": "$hostname",
+          "start": 0,
+          "num": 78,
+          "byteOrder": "rgbw"
+        }
+      ]
+    },
+    {
+      "type": "strip",
+      "tag": "strip12",
+      "x": 292.3902,
+      "y": 0.0,
+      "z": 0,
+      "numPoints": 78,
+      "spacing": 1.2303,
+      "outputs": [
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 1,
+          "channel": 424,
+          "host": "$hostname",
+          "start": 0,
+          "num": 22,
+          "byteOrder": "rgbw"
+        },
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 2,
+          "channel": 0,
+          "host": "$hostname",
+          "start": 22,
+          "num": 56,
+          "byteOrder": "rgbw"
+        }
+      ]
+    },
+    {
+      "type": "strip",
+      "tag": "strip16",
+      "x": 389.8536,
+      "y": 0.0,
+      "z": 0,
+      "numPoints": 78,
+      "spacing": 1.2303,
+      "outputs": [
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 2,
+          "channel": 224,
+          "host": "$hostname",
+          "start": 0,
+          "num": 72,
+          "byteOrder": "rgbw"
+        },
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 3,
+          "channel": 0,
+          "host": "$hostname",
+          "start": 72,
+          "num": 6,
+          "byteOrder": "rgbw"
+        }
+      ]
+    },
+    {
+      "type": "strip",
+      "tag": "strip20",
+      "x": 487.3,
+      "y": 0.0,
+      "z": 0,
+      "numPoints": 78,
+      "spacing": 1.2303,
+      "outputs": [
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 3,
+          "channel": 24,
+          "host": "$hostname",
+          "start": 0,
+          "num": 78,
+          "byteOrder": "rgbw"
+        }
+      ]
+    },
+    {
+      "type": "strip",
+      "tag": "strip1",
+      "x": 0.0,
+      "y": 24.0,
+      "z": 0,
+      "numPoints": 78,
+      "spacing": 1.2303,
+      "outputs": [
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 4,
+          "host": "$hostname",
+          "start": 0,
+          "num": 78,
+          "byteOrder": "rgbw"
+        }
+      ]
+    },
+    {
+      "type": "strip",
+      "tag": "strip5",
+      "x": 97.4634,
+      "y": 24.0,
+      "z": 0,
+      "numPoints": 78,
+      "spacing": 1.2303,
+      "outputs": [
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 4,
+          "channel": 312,
+          "host": "$hostname",
+          "start": 0,
+          "num": 50,
+          "byteOrder": "rgbw"
+        },
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 5,
+          "channel": 0,
+          "host": "$hostname",
+          "start": 50,
+          "num": 28,
+          "byteOrder": "rgbw"
+        }
+      ]
+    },
+    {
+      "type": "strip",
+      "tag": "strip9",
+      "x": 194.9268,
+      "y": 24.0,
+      "z": 0,
+      "numPoints": 78,
+      "spacing": 1.2303,
+      "outputs": [
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 5,
+          "channel": 112,
+          "host": "$hostname",
+          "start": 0,
+          "num": 78,
+          "byteOrder": "rgbw"
+        }
+      ]
+    },
+    {
+      "type": "strip",
+      "tag": "strip13",
+      "x": 292.3902,
+      "y": 24.0,
+      "z": 0,
+      "numPoints": 78,
+      "spacing": 1.2303,
+      "outputs": [
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 5,
+          "channel": 424,
+          "host": "$hostname",
+          "start": 0,
+          "num": 22,
+          "byteOrder": "rgbw"
+        },
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 6,
+          "channel": 0,
+          "host": "$hostname",
+          "start": 22,
+          "num": 56,
+          "byteOrder": "rgbw"
+        }
+      ]
+    },
+    {
+      "type": "strip",
+      "tag": "strip17",
+      "x": 389.85,
+      "y": 24.0,
+      "z": 0,
+      "numPoints": 78,
+      "spacing": 1.2303,
+      "outputs": [
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 6,
+          "channel": 224,
+          "host": "$hostname",
+          "start": 0,
+          "num": 72,
+          "byteOrder": "rgbw"
+        },
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 7,
+          "channel": 0,
+          "host": "$hostname",
+          "start": 72,
+          "num": 6,
+          "byteOrder": "rgbw"
+        }
+      ]
+    },
+    {
+      "type": "strip",
+      "tag": "strip21",
+      "x": 487.32,
+      "y": 24.0,
+      "z": 0,
+      "numPoints": 78,
+      "spacing": 1.2303,
+      "outputs": [
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 7,
+          "channel": 24,
+          "host": "$hostname",
+          "start": 0,
+          "num": 78,
+          "byteOrder": "rgbw"
+        }
+        ]
+    },
+    {
+      "type": "strip",
+      "tag": "strip2",
+      "x": 0.0,
+      "y": 48.0,
+      "z": 0,
+      "numPoints": 78,
+      "spacing": 1.2303,
+      "outputs": [
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 8,
+          "host": "$hostname",
+          "start": 0,
+          "num": 78,
+          "byteOrder": "rgbw"
+        }
+      ]
+    },
+    {
+      "type": "strip",
+      "tag": "strip6",
+      "x": 97.4634,
+      "y": 48.0,
+      "z": 0,
+      "numPoints": 78,
+      "spacing": 1.2303,
+      "outputs": [
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 8,
+          "channel": 312,
+          "host": "$hostname",
+          "start": 0,
+          "num": 50,
+          "byteOrder": "rgbw"
+        },
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 9,
+          "channel": 0,
+          "host": "$hostname",
+          "start": 50,
+          "num": 28,
+          "byteOrder": "rgbw"
+        }
+      ]
+    },
+    {
+      "type": "strip",
+      "tag": "strip10",
+      "x": 194.9268,
+      "y": 48.0,
+      "z": 0,
+      "numPoints": 78,
+      "spacing": 1.2303,
+      "outputs": [
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 9,
+          "channel": 112,
+          "host": "$hostname",
+          "start": 0,
+          "num": 78,
+          "byteOrder": "rgbw"
+        }
+      ]
+    },
+    {
+      "type": "strip",
+      "tag": "strip14",
+      "x": 292.3902,
+      "y": 48.0,
+      "z": 0,
+      "numPoints": 78,
+      "spacing": 1.2303,
+      "outputs": [
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 9,
+          "channel": 424,
+          "host": "$hostname",
+          "start": 0,
+          "num": 22,
+          "byteOrder": "rgbw"
+        },
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 10,
+          "channel": 0,
+          "host": "$hostname",
+          "start": 22,
+          "num": 56,
+          "byteOrder": "rgbw"
+        }
+      ]
+    },
+    {
+      "type": "strip",
+      "tag": "strip18",
+      "x": 389.8536,
+      "y": 48.0,
+      "z": 0,
+      "numPoints": 78,
+      "spacing": 1.2303,
+      "outputs": [
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 10,
+          "channel": 224,
+          "host": "$hostname",
+          "start": 0,
+          "num": 72,
+          "byteOrder": "rgbw"
+        },
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 11,
+          "channel": 0,
+          "host": "$hostname",
+          "start": 72,
+          "num": 6,
+          "byteOrder": "rgbw"
+        }
+      ]
+    },
+    {
+      "type": "strip",
+      "tag": "strip22",
+      "x": 487.32,
+      "y": 48.0,
+      "z": 0,
+      "numPoints": 78,
+      "spacing": 1.2303,
+      "outputs": [
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 11,
+          "channel": 24,
+          "host": "$hostname",
+          "start": 0,
+          "num": 78,
+          "byteOrder": "rgbw"
+        }
+      ]
+    },
+    {
+      "type": "strip",
+      "tag": "strip3",
+      "x": 0.0,
+      "y": 72.0,
+      "z": 0,
+      "numPoints": 78,
+      "spacing": 1.2303,
+      "outputs": [
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 12,
+          "host": "$hostname",
+          "start": 0,
+          "num": 78,
+          "byteOrder": "rgbw"
+        }
+      ]
+    },
+    {
+      "type": "strip",
+      "tag": "strip7",
+      "x": 97.4634,
+      "y": 72.0,
+      "z": 0,
+      "numPoints": 78,
+      "spacing": 1.2303,
+      "outputs": [
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 12,
+          "channel": 312,
+          "host": "$hostname",
+          "start": 0,
+          "num": 50,
+          "byteOrder": "rgbw"
+        },
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 13,
+          "channel": 0,
+          "host": "$hostname",
+          "start": 50,
+          "num": 28,
+          "byteOrder": "rgbw"
+        }
+      ]
+    },
+    {
+      "type": "strip",
+      "tag": "strip11",
+      "x": 194.9268,
+      "y": 72.0,
+      "z": 0,
+      "numPoints": 78,
+      "spacing": 1.2303,
+      "outputs": [
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 13,
+          "channel": 112,
+          "host": "$hostname",
+          "start": 0,
+          "num": 78,
+          "byteOrder": "rgbw"
+        }
+      ]
+    },
+    {
+      "type": "strip",
+      "tag": "strip15",
+      "x": 292.3902,
+      "y": 72.0,
+      "z": 0,
+      "numPoints": 78,
+      "spacing": 1.2303,
+      "outputs": [
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 13,
+          "channel": 424,
+          "host": "$hostname",
+          "start": 0,
+          "num": 22,
+          "byteOrder": "rgbw"
+        },
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 14,
+          "channel": 0,
+          "host": "$hostname",
+          "start": 22,
+          "num": 56,
+          "byteOrder": "rgbw"
+        }
+      ]
+    },
+    {
+      "type": "strip",
+      "tag": "strip19",
+      "x": 389.8536,
+      "y": 72.0,
+      "z": 0,
+      "numPoints": 78,
+      "spacing": 1.2303,
+      "outputs": [
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 14,
+          "channel": 224,
+          "host": "$hostname",
+          "start": 0,
+          "num": 72,
+          "byteOrder": "rgbw"
+        },
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 15,
+          "channel": 0,
+          "host": "$hostname",
+          "start": 72,
+          "num": 6,
+          "byteOrder": "rgbw"
+        }
+      ]
+    },
+    {
+      "type": "strip",
+      "tag": "strip23",
+      "x": 487.32,
+      "y": 72.0,
+      "z": 0,
+      "numPoints": 78,
+      "spacing": 1.2303,
+      "outputs": [
+        {
+          "protocol": "artnet",
+          "enabled": true,
+          "universe": 15,
+          "channel": 24,
+          "host": "$hostname",
+          "start": 0,
+          "num": 78,
+          "byteOrder": "rgbw"
+        }
+      ]
+    }
+  ]
+}
