@@ -71,7 +71,3 @@ var run = function(deltaMs, nowMillis, model, colors, enabledAmount) {
 ## License
 
 MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Credits
-
-Developed and maintained by the Chromatik team.
