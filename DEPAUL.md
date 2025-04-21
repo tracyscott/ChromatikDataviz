@@ -1,6 +1,7 @@
 # Chromatik DataViz Instructions for DePaul University School of Design
 
 ## Setup
+0. Install the latest version of Chromatik from https://chromatik.co/download
 1. Follow the instructions in the [README](README.md) to install the dataviz plugin.
 2. Create a new project. Add a `WabashSpan` fixture to your project.
 ![Wabash Fixture](assets/datavizfixture.png) 
