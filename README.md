@@ -7,6 +7,9 @@ A minimal package for rendering animated bar charts in Chromatik.
 - Render 4 animated bar charts in parallel
 - Both Java and Javascript versions
 - Java version supports background reloading of csv data
+- LinearHeatmap pattern renders csv values as intensity and stretches values to fit the range of the strip.  Can use 1, 2, 3 or 4 columns of data.
+![LinearHeatmap](assets/linearheatmap.png)
+
 
 ## Installation
 
