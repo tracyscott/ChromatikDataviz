@@ -18,7 +18,8 @@ A minimal package for rendering animated bar charts in Chromatik.
 ![Bar graph](assets/bargraph.png) 
 ![Bar Chart Pattern on Device](assets/barchartdevice.png)
 * `CsvBarChartPattern` will scan the `~/Chromatik/dataviz` folder for csv files and make them selectable with the CSV File knob.
-* The default implementation assumes that there are 4 strands of LEDs to render on.  For testing, you can add a `WabashSpan` fixture to your project.![Wabash Fixture](assets/datavizfixture.png) 
+* The default implementation assumes that there are 4 strands of LEDs to render on.  For testing, you can add a `WabashSpan` fixture to your project.
+![Wabash Fixture](assets/datavizfixture.png) 
 
 * As part of instantiating the pattern for the first time, the plugin will create a new folder called `dataviz` in your `~/Chromatik` folder. Inside will be test csv files, a utility javascript file (`cvs.js`) and a simple javascript bar chart pattern (`barchart.js`) that uses the `cvs.js` utility to load the csv files.
 
