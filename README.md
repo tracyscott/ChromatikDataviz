@@ -10,7 +10,7 @@ A minimal package for rendering animated bar charts in Chromatik.
 
 ## Installation
 
-* Download the latest release from the [releases page](https://github.com/tracyscott/chromatikdataviz/releases).
+* Download the latest `chromatik-dataviz.jar` release from the [releases page](https://github.com/tracyscott/chromatikdataviz/releases).
 * Drag and drop the downloaded JAR file into your Chromatik project.
 
 ## Usage
