@@ -1,4 +1,4 @@
-# Chromatik DataViz Instructions for Depaul University
+# Chromatik DataViz Instructions for DePaul University School of Design
 
 ## Setup
 1. Follow the instructions in the [README](README.md) to install the dataviz plugin.
